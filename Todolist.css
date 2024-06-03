@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.maindiv{
+
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3F3C95;
+
+
+}
+
+.centerdiv{
+    width: 50%;
+    height: 80vh;
+    border: 2px solid red;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5) ;
+    border-radius:15px ;
+
+}
+
+.Additem{
+    padding: 20px;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    resize: none;
+    border-bottom: underline;
+    font-weight: 600;
+    font-size: 20px;
+    color: #77777E;
+    background: none;
+
+}
+
+.Additem:focus{
+    outline: none;
+}
+
+/* For Button
+ */
+.btns{
+    min-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #77777E;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow:  5px 5px 25px -5px rgba(0,0,0,0.5) ;
+    resize: none;
+}
+.btns:hover{
+
+    background-color: #20bf6b;
+    transition: 0.5s ease-in;
+}
+
+ol li{
+    min-height: 40px;
+    list-style: none;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #77777E;
+    font-weight: 600;
+    text-transform: capitalize;
+    /* border: 2px solid red; */
+   
+   
+    
+}
+
+.todo_style{
+    height: 10%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+/* Delete button */
+
+.Deleteme{
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: #20bf6b;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+
+
+
+}
+
+.Deleteme:hover{
+
+    background-color: #a2453e;
+    transition: 0.5s ease;
+   
+}
